@@ -1,0 +1,26 @@
+# SentinelFlow audit database and local SQLite files
+*.sqlite
+*.sqlite3
+*.db
+*.sqlite-*
+*.sqlite3-*
+*.db-*
+*.log
+.env
+.env.*
+!.env.example
+
+# Python and test artifacts
+.venv/
+venv/
+*.egg-info/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+
+# Frontend build/install output is ignored in frontend/.gitignore as well.
